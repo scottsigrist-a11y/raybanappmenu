@@ -1,0 +1,6 @@
+{
+  "name": "RayLauncher - Meta Ray-Ban Display & Desktop Manager",
+  "description": "Manage web apps on desktop and launch them on a 600x600 Meta Ray-Ban Display HUD with strict D-pad navigation and swipe pagination.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

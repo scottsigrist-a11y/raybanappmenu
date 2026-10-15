@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-mono-nums {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Strict 600x600 Meta Ray-Ban display constraints */
+.rayban-viewport-600 {
+  width: 600px !important;
+  height: 600px !important;
+  min-width: 600px !important;
+  max-width: 600px !important;
+  min-height: 600px !important;
+  max-height: 600px !important;
+  overflow: hidden !important;
+  position: relative !important;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Subtle microLED waveguide scanline texture for realism */
+.waveguide-glow {
+  text-shadow: 0 0 8px currentColor;
+}
+
+.waveguide-box-glow {
+  box-shadow: 0 0 14px currentColor;
+}
